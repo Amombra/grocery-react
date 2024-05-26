@@ -19,7 +19,7 @@ import { TypeAnimation } from 'react-type-animation';
 const DisplaySection  = ()=>{
 
     return (
-        <div className='mx-[320px] mt-[25px]'>
+        <div className='mx-[50px] mt-[25px]'>
 
             <div className='flex gap-[51px]'>
 

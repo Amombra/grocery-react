@@ -3,7 +3,7 @@ import Header from "../Header/Header";
 import Navbar from "../Navbar/Navbar";
 import DisplaySection from "../DisplaySection/DisplaySection";
 import FeatureProducts from "../FeatureProducts/FeatureProducts";
-import SliderOne from "../SliderOne/SliderOne";
+import Advertisement from "../Advertisement/Advertisement";
 
 const Home = ()=>{
     return (
@@ -12,7 +12,8 @@ const Home = ()=>{
             <Navbar/>
             <DisplaySection/>
             <FeatureProducts/>
-            <SliderOne/>
+            <Advertisement/>
+            
         </div>
     )
 }

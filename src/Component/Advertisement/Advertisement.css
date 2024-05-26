@@ -1,0 +1,49 @@
+.advertisement-container{
+    margin: 76px 320px 0px 320px;
+}
+
+.advertisement-sub-container{
+    display: flex;
+    gap: 35px;
+}
+
+
+.hoverImg{
+position: relative;
+}
+
+.hoverImg-content{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 50;
+}
+
+.hoverImg-content h1{
+    font-size: 35px;
+    font-weight: 900;
+    color: #FFB11B;
+    line-height: 40px;
+}
+
+.hoverImg-content p{
+    font-size: 15px;
+    color: #B18D6B;
+    text-align: center;
+}
+
+
+.cont-img img{
+    width: 295px;
+    height: 440px;
+    text-decoration: 1000ms;
+    cursor: pointer;
+}
+
+.cont-img:hover .hoverImg{
+    background-color: black;
+}
+
+.cont-img:hover img{
+    opacity: .5;
+}
